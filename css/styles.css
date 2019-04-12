@@ -1,4 +1,5 @@
 @import url("menu.css");
+
 *{
     padding: 0;
     margin: 0;
@@ -22,8 +23,7 @@ h1{
 }
 h2{
     color: #FFFFFF;
-    margin: 0.25em auto;
-    text-align: :center;
+    padding-top: 50px;
     text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
 }
 footer{
@@ -32,17 +32,16 @@ footer{
     border-radius: 0.5em;
     margin: 0.5em auto;
     max-width: 960px;
+    max-height: 150px;
     padding: 0.25em;
-    text-align: center;
-
-    
+    text-align: center;   
 }  
 
 nav{
     
     background: url("../img/1858.jpg");
     border-radius: 0.5em;
-    margin: 0.5em auto;
+    margin: 0em auto;
     max-width: 650px;
     padding: 0.25em;
     text-align: center;
@@ -55,6 +54,9 @@ header{
     max-width: 960px;
     padding: 0.25em;
     text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+
 }
 section#contenedor{
     margin: 0.5em auto;
@@ -64,7 +66,7 @@ section#contenedor{
 
 
 }
-section#Principal,aside{
+section#Principal{
     background: url("../img/1858.jpg");
     border-radius: 0.5em;
     display: inline-block;
@@ -88,7 +90,22 @@ article{
 }
 aside{
     width: 30%;
-   
+    background: url("../img/1858.jpg");
+    border-radius: 0.5em;
+    display: inline-block;
+    margin-top: 0.2em auto;
+    vertical-align: top;
+    max-height: 500px;
+    
+}
+img .logo{
+    width: 30%; 
 }
 
+#twitter{
+    overflow-y:scroll;
+    background: url("../img/1858.jpg");
+    max-height: 550px;
+    border-radius: 0.5em;
 
+}
