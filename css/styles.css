@@ -1,0 +1,94 @@
+@import url("menu.css");
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    font-family: 'Open Sans',Sans-serif;
+    font-family: "chalet"    
+}
+body{
+    background: #005883;
+    color: #FFFFFF;
+    font-family: "chalet";
+    font-size: 2em;
+
+}
+h1{
+    color: #F60;
+    margin: 0.25em auto;
+    text-align: :center;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+}
+h2{
+    color: #FFFFFF;
+    margin: 0.25em auto;
+    text-align: :center;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+}
+footer{
+    background: #005883;
+    background: url("../img/1858.jpg");
+    border-radius: 0.5em;
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0.25em;
+    text-align: center;
+
+    
+}  
+
+nav{
+    
+    background: url("../img/1858.jpg");
+    border-radius: 0.5em;
+    margin: 0.5em auto;
+    max-width: 650px;
+    padding: 0.25em;
+    text-align: center;
+    position: relative;
+}
+header{
+    background: url("../img/1858.jpg");
+    border-radius: 0.5em;
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0.25em;
+    text-align: center;
+}
+section#contenedor{
+    margin: 0.5em auto;
+    max-width: 960px;
+    padding: 0;
+    text-align: center;
+
+
+}
+section#Principal,aside{
+    background: url("../img/1858.jpg");
+    border-radius: 0.5em;
+    display: inline-block;
+    margin-top: 0.2em auto;
+    max-width: 960px;
+    max-height: 200px;
+    vertical-align: top;
+    width: 65%;
+
+}
+section#Principal{
+    background: #F47920;
+
+}
+article{
+    background: url("../img/1858.jpg");
+    border-radius: 0.5em;
+    min-height: 140px;
+    padding: 0.2em;
+
+}
+aside{
+    width: 30%;
+   
+}
+
+
