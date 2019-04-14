@@ -31,26 +31,26 @@
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="#">Lecturas</a>
               <ul>
-                    <li><a href="lectura1.html">Lectura 1</a></li>
-                    <li><a href="lectura2.html">Lectura 2</a></li>                    
-                    <li><a href="lectura3.html">Lectura 3</a></li>
-                    <li><a href="lectura4.html">Lectura 4</a></li>
-                    <li><a href="lectura5.html">Lectura 5</a></li>
+                    <li><a href="lectura1.html">SNMP</a></li>
+                    <li><a href="lectura2.html">Inteligencia de la colonia</a></li>                 
+                    <li><a href="lectura3.html">LAN</a></li>
+                    <li><a href="lectura4.html">Topologías de Red</a></li>
+                    <li><a href="lectura5.html">IPv6</a></li>
                     
                 </ul>
             </li>
             <li><a href="#">Multimedia</a>
                 <ul>
-                    <li><a href="multimedia1.html">Multimedia 1</a></li>
-                    <li><a href="multimedia2.html">Multimedia 2</a></li>                    
+                    <li><a href="multimedia1.html">SGSI</a></li>
+                    <li><a href="multimedia2.html">Admin de Redes</a></li>                    
                            
                 </ul>
             </li>
             <li><a href="#">Actividades</a>
                 <ul>
-                    <li><a href="actividad1.html">Actividad 1</a></li>
-                    <li><a href="actividad2.html">Actividad 2</a></li>                    
-                    <li><a href="actividad3.html">Actividad 3</a></li>
+                    <li><a href="actividad1.html">Seguridad</a></li>
+                    <li><a href="actividad2.html">Administración</a></li>                    
+                    <li><a href="actividad3.html">Integridad</a></li>
                                         
                 </ul>
             </li>
@@ -68,21 +68,80 @@
       <section id="Principal">
         <div class="menu2" id="menu2">
         <ul>
-          <li><a href="#" id="m1">Actividad 1</a></li>
-          <li><a href="#" id="m2">Actividad 2</a></li>
-          
+          <li><a href="#" id="m1">Topologías de Red</a></li>
+          <li><a href="#" id="m2">Estrella</a></li>
+          <li><a href="#" id="m3">Bus</a></li>
+          <li><a href="#" id="m4">Anillo</a></li>
+                    
         </ul>
         </div>
         <article>
-                  
+               
           <div id="tabs-1" class="texto">
-            <h1>Integridad de Datos</h1>
-              
-              <iframe width="610" height="530" frameborder="0" src="https://es.educaplay.com/es/recursoseducativos/2937649/html5/relacionar_columnas.htm"></iframe>
+            <div class="lectura">
+              <h3>Topologías de Red</h3><hr>
+
+              <p>La topología lógica de una red local define la manera como se conectan las estaciones que la forman al medio de transmisión. Dicho de otra manera, la topología es la forma que toma el medio que comparten las estaciones.</p><br> 
+              <p>Hay redes cableadas y redes sin hilos. En las primeras, el medio es tangible, por lo tanto se le puede dar una forma, mientras que en las redes sin hilos el medio de transmisión es el aire o el vacío, y por lo tanto parece difícil poder hablar de topología. 
+              Básicamente hay tres topologías lógicas posibles: </p><br>
+              • Estrella <br>
+              • Busbr  <br>
+              • Anillo <br><br>
+              <h4>Referencias:</h4><br>
+              <p>Íñigo Griera, J. (2013). Estructura de redes de computadores. [N.p.]: Editorial UOC. Retrieved from http://search.ebscohost.com.bibliotecavirtual.unad.edu.co/login.aspx?direct=true&db=edsebk&AN=954951&lang=es&site=eds-live&scope=site</p>
+
+            </div>  
           </div>
+
           <div id="tabs-2" class="texto" style="display: none;">
-            <h1>Seguridad Informatica</h1>
-              <iframe width="610" height="530" frameborder="0" src="https://es.educaplay.com/es/recursoseducativos/2937633/html5/ordenar_letras.htm"></iframe>
+            <div class="lectura">
+              <h3>Topología en estrella</h3><hr><br>
+              <img src="../img/TpEstrella.jpg" class="lt4" align="center">
+              <p>La topología en estrella consiste en conectar cada ordenador a un punto central, que puede ser tan sencillo como una simple unión física de los cables.</p>
+              <p> Cuando un ordenador pone una trama en la red, ésta aparece inmediatamente en las entradas de todo el resto. Aunque se han definido estándares para este tipo de redes, actualmente ya casi no hay, ya que no aportan ninguna ventaja sobre el resto y sí muchos inconvenientes.</p>
+
+
+            </div>
+          </div>
+
+          <div id="tabs-3" class="texto" style="display: none;">
+            <div class="lectura">
+              <h3>Topología en bus</h3><hr>
+
+              <p>La topología en bus consiste en un cable al cual se unen todas las estaciones de la red.</p>
+              <img src="../img/TpBus.jpg" class="lt4" align="center">
+              <p>Todos los ordenadores están pendientes de si en el cable hay actividad. En el momento en que un ordenador pone una trama, todos los ordenadores la recogen y miran si son el destinatario. Si es así, se la quedan y, si no, la descartan. </p><br>
+
+              <p>Las primeras redes en bus utilizaban un cable coaxial grueso, conectores tipos BNC, y los ordenadores se conectaban con un dispositivo llamado transceptor ( transceiver ), que era exterior. Posteriormente, apareció una nueva versión, con un cable más fino ( thinethernet ) y con unos transceptores más pequeños, de manera que se podían integrar en el adaptador de red y así no se veían.</p><br>
+
+              <p>Los caprichos de la electrónica exigen que el cable esté “tapado” en los dos extremos, para que los bits no se “pierdan”. Eso se hace con una resistencia de carga. Cuando un ordenador pone una trama en el cable, ésta lo recurre completamente en las dos direcciones hasta los extremos donde es absorbida por los tapones.</p>
+
+            </div>
+          </div>
+
+          <div id="tabs-4" class="texto" style="display: none;">
+            <div class="lectura">
+              <h3>Topología en anillo</h3><hr>
+
+              <p>La topología en anillo consiste en conectar cada ordenador a dos más, de manera que se forme un anillo. Cuando un ordenador quiere enviar una trama a otro, ésta tiene que pasar por todos los que hay en medio: la circulación por el anillo es unidireccional.</p>
+
+              <img src="../img/TpAnillo.jpg" class="lt4" align="center">
+
+              <p>El dispositivo que conecta el ordenador al anillo es el repetidor, un circuito con tres conexiones:</p> 
+              • Conexión de entrada de tramas desde el anillo al ordenador (A). <br>
+              • Conexión de salida de tramas desde el ordenador al anillo (B). <br>
+              • Conexión bidireccional, por la cual pasan todas las tramas que entran y salen del ordenador (C).<br>
+
+              <img src="../img/TpAnilloPcC.jpg" class="lt4" align="center">
+
+              <p>El repetidor tiene tres modos de trabajo: </p>
+              <p>• Modo escucha: el repetidor coge las tramas que le llegan por A y las pone simultáneamente en B y C, para que continúen por el anillo y para que el ordenador reciba una copia y lo analice. Si es el destinatario, se la queda y, en caso contrario, la descarta.</p><br>
+ 
+              <p>• Modo transmisión: el ordenador envía información a la red. Pone una trama en C, de manera que atraviesa el repetidor y sale por B hacia el ordenador siguiente del anillo. </p><br>
+
+              <p>• Modo cortocircuito: las tramas que llegan por A se ponen directamente en B sin dar una copia al ordenador. Este modo sirve para que el anillo continúe funcionando si el ordenador correspondiente no está en marcha.</p>
+
+            </div>
           </div>
                   
           </article>
