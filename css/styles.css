@@ -112,5 +112,13 @@ aside{
     background: url("../img/1858.jpg");
     max-height: 550px;
     border-radius: 0.5em;
+}
+.lectura{
 
+    text-align:justify;
+    font-size: 0.7em;
+    
+}
+h3{
+    text-align: center;
 }
