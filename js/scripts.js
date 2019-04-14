@@ -38,15 +38,25 @@ $(document).ready(function(){
       $('#tabs-1').show(900);
       $('#tabs-2').hide(900);
       $('#tabs-3').hide(900);
+      $('#tabs-4').hide(900);
    });
    $("#m2").click(function(){
       $('#tabs-2').show(900);
       $('#tabs-1').hide(900);
       $('#tabs-3').hide(900);
+      $('#tabs-4').hide(900);
    });
    $("#m3").click(function(){
       $('#tabs-3').show(900);
       $('#tabs-2').hide(900);
       $('#tabs-1').hide(900);
+      $('#tabs-4').hide(900);
+   });
+   $("#m4").click(function(){
+      $('#tabs-4').show(900);
+      $('#tabs-3').hide(900);
+      $('#tabs-2').hide(900);
+      $('#tabs-1').hide(900);
+
    });
 });
